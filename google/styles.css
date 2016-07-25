@@ -1,9 +1,141 @@
 /* default styling */
+body {
+  font-family: arial;
+  font-size: 1em;
+}
 
+a {
+  text-decoration: none;
+  color: #666;
+}
 /* nav */
+#navi {
+  height: 3em;
+  position: fixed;
+  margin-top: 20px;
+  margin-right: 10px;
+  text-align: right;
+}
 
 /* main-content */
+.main-content {
+  position: absolute;
+  left: 34%;
+  top: 20%;
+}
+
+#logo {
+  display: block;
+  margin-left: 13em;
+}
+
+.btn-container {
+  position:relative;
+  margin-left: 13em;
+  margin-top: 1.5em;
+}
+
+.btn-main {
+  background: #f2f2f2;
+  border: none;
+  color: #757575;
+  text-align: center;
+  border-radius: 7%;
+  padding:10px;
+}
+
+
+
+#search-bar {
+  background-image: url("./assets/microphone.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30px 25px;
+  position:relative;
+  border-color: darkgrey;
+  border-width: 2px;
+  width:35em;
+  height:2em;
+  margin-left: 3em;
+  margin-top: 1.5em
+}
+
+#search-bar:focus {
+  border: 2px solid #4d90fe ;
+  outline: none;
+}
 
 /* footer */
+#footer {
+   position: fixed;
+   width:100%;
+   bottom: 0px;
+   height:60px;   /* Height of the footer */
+   background:#f2f2f2;
+}
+
+ul {
+  display: inline;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+.align-left {
+  position: fixed;
+  left: 10px;
+  margin-top:20px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.align-right {
+  position: fixed;
+  right: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+#ad:hover {
+  text-decoration: underline;;
+}
+
+#bus:hover {
+  text-decoration: underline;;
+}
+
+#about:hover {
+  text-decoration: underline;;
+}
+
+#priv:hover {
+  text-decoration: underline;;
+}
+
+#terms:hover {
+  text-decoration: underline;;
+}
+
+#set:hover {
+  text-decoration: underline;;
+}
 
 /* helper classes */
+
+.user_pic {
+  position: relative;
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%
+}
+
+button:hover {
+  border: 2px solid lightgrey;
+  color:black;
+
+}
+
